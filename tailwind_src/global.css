@@ -1,0 +1,16 @@
+@import './tailwind.css';
+
+/* Các quy tắc CSS global khác */
+@layer components {
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+
+    #main-container {
+        @apply flex flex-col relative min-h-screen overflow-hidden;
+    }
+
+    #main-container .site-main {
+        @apply grow;
+    }
+}

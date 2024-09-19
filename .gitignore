@@ -1,0 +1,6 @@
+node_modules
+public/css/pages
+public/css/global.css
+package-lock.json
+app/Config.php
+.vscode/
