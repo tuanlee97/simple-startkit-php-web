@@ -1,64 +1,75 @@
+####
+
+## Getting started 🚀
+
 #### STEP 1: Start Project
 
-Run: npm install
+Run: `npm install`
 
 #### STEP 2: Build CSS
 
-A. Build Global CSS
+_Remove option `--watch` if you don't need tailwind auto build css on save._
 
-Window OS: npx tailwindcss -i .\tailwind_src\global.css -o .\public\css\global.css --watch
+**A. Build Global CSS**
 
-Linux OS: npx tailwindcss -i ./tailwind_src/global.css -o ./public/css/global.css --watch
+Window OS: `npx tailwindcss -i .\tailwind_src\global.css -o .\public\css\global.css --watch`
+
+Linux OS: `npx tailwindcss -i ./tailwind_src/global.css -o ./public/css/global.css --watch`
 
 ---
 
-B. Build Specific CSS, ex: public/css/pages/home.css
+**B. Build Specific CSS**
+_Ex: public/css/pages/home.css_
 
-Window OS: npx tailwindcss -i .\tailwind_src\pages\home.css -o .\public\css\pages\home.css --watch
+Window OS: `npx tailwindcss -i .\tailwind_src\pages\home.css -o .\public\css\pages\home.css --watch`
 
-Linux OS: npx tailwindcss -i ./tailwind_src/pages/home.css -o ./public/css/pages/home.css --watch
+Linux OS: `npx tailwindcss -i ./tailwind_src/pages/home.css -o ./public/css/pages/home.css --watch`
 
-----Happy Coding----
+---
+
+**----Happy Coding----**
 
 ---
 
 #### STRUCTURE
 
-/project-root
-|-- /app
-| |-- PageHelper.php
-| |-- Route.php
-|-- /public
-| |-- /images
-| | |-- not-found.jpg
-| |-- /css
-| | |-- global.css
-| | |-- header.css
-| | |-- footer.css
-| | |-- /pages
-| | |-- home.css
-| | |-- about.css
-| |-- /js
-| | |-- global.js
-| | |-- /pages
-| | |-- home.js
-| | |-- about.js
-| |-- index.php
-|-- /pages
-| |-- /templates
-| | |-- header.php
-| | |-- footer.php
-| |-- /home.php
-| |-- /about.php
-| |-- 404.php
-| |-- 500.php
-|-- /tailwind.config.js
-|-- /node_modules
-|-- /package.json
-|-- /tailwind_src
-| |-- global.css
-| |-- header.css
-| |-- footer.css
-| |-- /pages
-| |-- home.js
-| |-- about.js
+<pre>
+<b>/project-root</b>
+<b>|-- /app</b>
+	||-- PageHelper.php
+	||-- Route.php
+	||-- Config.php
+<b>|-- /public</b>
+	||-- /images
+		|||-- not-found.jpg
+	||-- /css
+		|||-- global.css
+		|||-- header.css
+		|||-- footer.css
+		|||-- /pages
+		|||-- home.css
+		|||-- about.css
+	||-- /js
+		|||-- global.js
+		|||-- /pages
+		|||-- home.js
+		|||-- about.js
+	||-- index.php
+<b>|-- /pages</b>
+	||-- /templates
+			|||-- header.php
+			|||-- footer.php
+		||-- /home.php
+		||-- /about.php
+		||-- 404.php
+		||-- 500.php
+<b>|-- /tailwind.config.js</b>
+<b>|-- /package.json</b>
+<b>|-- /tailwind_src</b>
+	| |-- global.css
+	| |-- header.css
+	| |-- footer.css
+	| |-- /pages
+	| |-- home.js
+	| |-- about.js
+</pre>
