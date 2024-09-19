@@ -57,19 +57,19 @@ Linux OS: `npx tailwindcss -i ./tailwind_src/pages/home.css -o ./public/css/page
 	||-- index.php
 <b>|-- /pages</b>
 	||-- /templates
-			|||-- header.php
-			|||-- footer.php
-		||-- /home.php
-		||-- /about.php
-		||-- 404.php
-		||-- 500.php
+		|||-- header.php
+		|||-- footer.php
+	||-- /home.php
+	||-- /about.php
+	||-- 404.php
+	||-- 500.php
 <b>|-- /tailwind.config.js</b>
 <b>|-- /package.json</b>
 <b>|-- /tailwind_src</b>
-	| |-- global.css
-	| |-- header.css
-	| |-- footer.css
-	| |-- /pages
-	| |-- home.js
-	| |-- about.js
+	||-- global.css
+	||-- header.css
+	||-- footer.css
+	||-- /pages
+	||-- home.js
+	||-- about.js
 </pre>
