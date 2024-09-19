@@ -1,5 +1,7 @@
 ####
 
+![enter image description here](https://raw.githubusercontent.com/tuanlee97/simple-startkit-php-web/refs/heads/main/screen-shot.png)
+
 ## Getting started 🚀
 
 #### STEP 1: Start Project
